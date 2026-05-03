@@ -1,0 +1,44 @@
+/* Page-level reset and base styling */
+body {
+  margin: 0;
+  background: #dffbf8;
+}
+
+/* Full-page container used to center the clock */
+.clock-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Visual box around the date and time */
+.clock-box {
+  border: 2px solid #333;
+  padding: 20px 30px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+/* Stack the date and time vertically */
+.clock-box p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Date styling */
+.date{
+  font-size: 2rem;
+  color: #888;
+  opacity: 0.6;
+  font-weight: bolder;
+}
+
+/* Time styling */
+.time{
+  font-size: 1.5rem;
+  color: rgb(0, 38, 255);
+  font-weight: bold;
+}
