@@ -69,6 +69,12 @@ format(clockText, 'MM/dd/yyyy') format(clockText, 'hh:mm:ss a')
 
 ------------------------------------------------------------------------
 
+## Screenshots
+
+![Blog Homepage](./screenshots/screenshot.png)
+
+------------------------------------------------------------------------
+
 ## Author
 Matthew Swanberg
 
